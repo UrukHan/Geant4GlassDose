@@ -1,0 +1,6 @@
+C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\main.cc;C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\build\GlassDose.dir\Release\main.obj
+C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\src\ActionInitialization.cc;C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\build\GlassDose.dir\Release\ActionInitialization.obj
+C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\src\DetectorConstruction.cc;C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\build\GlassDose.dir\Release\DetectorConstruction.obj
+C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\src\PrimaryGeneratorAction.cc;C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\build\GlassDose.dir\Release\PrimaryGeneratorAction.obj
+C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\src\RunAction.cc;C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\build\GlassDose.dir\Release\RunAction.obj
+C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\src\SteppingAction.cc;C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\build\GlassDose.dir\Release\SteppingAction.obj

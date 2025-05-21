@@ -1,0 +1,3 @@
+C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/CMakeFiles/GlassDose.dir
+C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/CMakeFiles/ALL_BUILD.dir
+C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/CMakeFiles/ZERO_CHECK.dir

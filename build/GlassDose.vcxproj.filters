@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\src\ActionInitialization.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\src\DetectorConstruction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\src\PrimaryGeneratorAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\src\RunAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\src\SteppingAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\include\ActionInitialization.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\include\DetectorConstruction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\include\PrimaryGeneratorAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\include\RunAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\include\SteppingAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0BE2CF06-8BFF-350E-AE1C-8206F2BB6FFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0C56EE3E-E60A-356C-B0A5-D795DC2A06E9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
