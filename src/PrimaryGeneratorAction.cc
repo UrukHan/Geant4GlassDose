@@ -11,16 +11,12 @@ PrimaryGeneratorAction::PrimaryGeneratorAction()
   auto particleDefinition = G4ParticleTable::GetParticleTable()->FindParticle("proton");
   fParticleGun->SetParticleDefinition(particleDefinition);
   fParticleGun->SetParticleEnergy(200*MeV);
-  fParticleGun->SetParticlePosition(G4ThreeVector(0.,0.,-15.*cm));
+  fParticleGun->SetParticlePosition(G4ThreeVector(0.,0.,-25.*cm));
   fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0.,0.,1.));
 }
 
-PrimaryGeneratorAction::~PrimaryGeneratorAction()
-{
-  delete fParticleGun;
-}
+PrimaryGeneratorAction::~PrimaryGeneratorAction() { delete fParticleGun; }
 
-void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
-{
+void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent) {
   fParticleGun->GeneratePrimaryVertex(anEvent);
 }

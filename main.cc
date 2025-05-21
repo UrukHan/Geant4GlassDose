@@ -24,7 +24,6 @@ int main(int argc,char** argv) {
     UImanager->ApplyCommand(command+fileName);
   } else {
     auto ui = new G4UIExecutive(argc, argv);
-    UImanager->ApplyCommand("/control/execute vis.mac");
     ui->SessionStart();
     delete ui;
   }

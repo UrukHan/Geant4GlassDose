@@ -10,7 +10,7 @@ public:
   DetectorConstruction();
   virtual ~DetectorConstruction();
   virtual G4VPhysicalVolume* Construct();
-  
+
   G4LogicalVolume* GetScoringVolume() const { return fScoringVolume; }
 
 private:
