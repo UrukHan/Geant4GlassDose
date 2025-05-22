@@ -1,0 +1,19 @@
+{
+  "visualization": false,
+  "particle": "proton",
+  "energy_MeV": 200,
+  "position_cm": [0, 0, -6],
+  "direction": [0, 0, 1],
+  "number_of_particles": 100000,
+  "world_size_cm": {
+    "length": 14,
+    "width": 14,
+    "height": 14
+  },
+  "sample_size_cm": {
+    "length": 10,
+    "width": 10,
+    "height": 10
+  },
+  "sample_density_g_cm3": 4.0
+}

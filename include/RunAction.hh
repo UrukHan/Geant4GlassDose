@@ -8,17 +8,18 @@ class G4Run;
 
 class RunAction : public G4UserRunAction
 {
-  public:
-    RunAction();
-    virtual ~RunAction();
+public:
+    RunAction(G4double mass_kg);
+    ~RunAction();
 
     virtual void BeginOfRunAction(const G4Run*);
     virtual void EndOfRunAction(const G4Run*);
-    
-    void AddDose(G4double dose);
-    
-  private:
-    G4Accumulable<G4double> fDose;
+
+    void AddEdep(G4double edep);
+
+private:
+    G4Accumulable<G4double> fEdep;
+    G4double fMass_kg;
 };
 
 #endif

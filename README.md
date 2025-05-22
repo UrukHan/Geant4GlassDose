@@ -14,7 +14,7 @@ build\Release\GlassDose.exe
 ```
 /run/initialize
 /control/execute vis.mac
-/run/beamOn 1000
+/run/beamOn 10000
 ```
 
 

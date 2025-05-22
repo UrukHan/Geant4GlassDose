@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/CMakeFiles/json-populate"
+		},
+		{
+			"file" : "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/CMakeFiles/2b742e4db96bc79250847fcebc6b0e49/json-populate.rule"
+		},
+		{
+			"file" : "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/CMakeFiles/ef1c2a62c6d124a57471a94c54758dae/json-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/CMakeFiles/6bbab384fb484d3b8c431a47d547bf7d/json-populate-build.rule"
+		},
+		{
+			"file" : "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/CMakeFiles/6bbab384fb484d3b8c431a47d547bf7d/json-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/CMakeFiles/6bbab384fb484d3b8c431a47d547bf7d/json-populate-download.rule"
+		},
+		{
+			"file" : "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/CMakeFiles/6bbab384fb484d3b8c431a47d547bf7d/json-populate-install.rule"
+		},
+		{
+			"file" : "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/CMakeFiles/6bbab384fb484d3b8c431a47d547bf7d/json-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/CMakeFiles/6bbab384fb484d3b8c431a47d547bf7d/json-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/CMakeFiles/6bbab384fb484d3b8c431a47d547bf7d/json-populate-test.rule"
+		},
+		{
+			"file" : "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/CMakeFiles/6bbab384fb484d3b8c431a47d547bf7d/json-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"json-populate"
+		],
+		"name" : "json-populate"
+	}
+}

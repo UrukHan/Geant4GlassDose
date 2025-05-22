@@ -2,20 +2,26 @@
 #define DETECTORCONSTRUCTION_HH
 
 #include "G4VUserDetectorConstruction.hh"
-
-class G4LogicalVolume;
+#include "G4LogicalVolume.hh"
 
 class DetectorConstruction : public G4VUserDetectorConstruction {
 public:
-  DetectorConstruction();
-  virtual ~DetectorConstruction();
-  virtual G4VPhysicalVolume* Construct();
+    DetectorConstruction(double worldL, double worldW, double worldH,
+                         double sampleL, double sampleW, double sampleH,
+                         double density);
+    virtual ~DetectorConstruction();
 
-  G4LogicalVolume* GetScoringVolume() const { return fScoringVolume; }
+    virtual G4VPhysicalVolume* Construct();
+    G4LogicalVolume* GetScoringVolume() const { return fScoringVolume; }
 
 private:
-  void DefineMaterials();
-  G4LogicalVolume* fScoringVolume = nullptr;
+    void DefineMaterials();
+
+    double fWorldLength, fWorldWidth, fWorldHeight;
+    double fSampleLength, fSampleWidth, fSampleHeight;
+    double fDensity;
+
+    G4LogicalVolume* fScoringVolume;
 };
 
 #endif

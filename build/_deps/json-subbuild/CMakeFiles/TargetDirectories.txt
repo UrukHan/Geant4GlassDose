@@ -1,0 +1,3 @@
+C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/CMakeFiles/json-populate.dir
+C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/CMakeFiles/ZERO_CHECK.dir

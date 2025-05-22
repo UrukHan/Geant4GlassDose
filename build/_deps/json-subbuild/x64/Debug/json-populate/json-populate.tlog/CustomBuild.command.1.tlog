@@ -1,0 +1,152 @@
+^C:\PROGRAM FILES\GEANT4-11.3\SHARE\GEANT4\PROJECTS\GEANT4GLASSDOSE\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\6BBAB384FB484D3B8C431A47D547BF7D\JSON-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/json-populate-prefix/tmp/json-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\PROGRAM FILES\GEANT4-11.3\SHARE\GEANT4\PROJECTS\GEANT4GLASSDOSE\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\6BBAB384FB484D3B8C431A47D547BF7D\JSON-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\build\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/download-json-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/verify-json-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/extract-json-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\PROGRAM FILES\GEANT4-11.3\SHARE\GEANT4\PROJECTS\GEANT4GLASSDOSE\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\6BBAB384FB484D3B8C431A47D547BF7D\JSON-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-update"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\PROGRAM FILES\GEANT4-11.3\SHARE\GEANT4\PROJECTS\GEANT4GLASSDOSE\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\6BBAB384FB484D3B8C431A47D547BF7D\JSON-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\PROGRAM FILES\GEANT4-11.3\SHARE\GEANT4\PROJECTS\GEANT4GLASSDOSE\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\6BBAB384FB484D3B8C431A47D547BF7D\JSON-POPULATE-CONFIGURE.RULE
+setlocal
+cd "C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\build\_deps\json-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\PROGRAM FILES\GEANT4-11.3\SHARE\GEANT4\PROJECTS\GEANT4GLASSDOSE\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\6BBAB384FB484D3B8C431A47D547BF7D\JSON-POPULATE-BUILD.RULE
+setlocal
+cd "C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\build\_deps\json-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\PROGRAM FILES\GEANT4-11.3\SHARE\GEANT4\PROJECTS\GEANT4GLASSDOSE\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\6BBAB384FB484D3B8C431A47D547BF7D\JSON-POPULATE-INSTALL.RULE
+setlocal
+cd "C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\build\_deps\json-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\PROGRAM FILES\GEANT4-11.3\SHARE\GEANT4\PROJECTS\GEANT4GLASSDOSE\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\6BBAB384FB484D3B8C431A47D547BF7D\JSON-POPULATE-TEST.RULE
+setlocal
+cd "C:\Program Files\Geant4-11.3\share\Geant4\projects\Geant4GlassDose\build\_deps\json-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\PROGRAM FILES\GEANT4-11.3\SHARE\GEANT4\PROJECTS\GEANT4GLASSDOSE\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\EF1C2A62C6D124A57471A94C54758DAE\JSON-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/CMakeFiles/Debug/json-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\PROGRAM FILES\GEANT4-11.3\SHARE\GEANT4\PROJECTS\GEANT4GLASSDOSE\BUILD\_DEPS\JSON-SUBBUILD\CMAKEFILES\2B742E4DB96BC79250847FCEBC6B0E49\JSON-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\PROGRAM FILES\GEANT4-11.3\SHARE\GEANT4\PROJECTS\GEANT4GLASSDOSE\BUILD\_DEPS\JSON-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild" "-BC:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild" --check-stamp-file "C:/Program Files/Geant4-11.3/share/Geant4/projects/Geant4GlassDose/build/_deps/json-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
